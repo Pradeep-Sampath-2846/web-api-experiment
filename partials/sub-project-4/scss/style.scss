@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: green;
+    overflow: hidden;
+
+}
+
+.background{
+    width: 35%;
+    height: 300%;
+    background-color: rgba(86, 29, 29, 0.686);
+    // background-color: rgba(13, 83, 17, 0.686);
+    position: absolute;
+    background-size: contain;
+}
+#right-bank{
+    right: 0;
+}
+
+#road-wrapper{
+    width: 30%;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+}
+#road{
+   background-image: url(/img/road2.jpg);
+   width: 100%;
+   height: 300%;
+   background-size: 100% 18%;
+   background-repeat: repeat-y;
+   position: absolute;
+   top: -200%;
+
+}
+#mycar{
+    width: 50px;
+    height: 100px;
+    // background-color: red;
+    position: absolute;
+    background-image: url(/img/car2.png) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom: 10px;
+    left: 10%;
+    transition: left 100ms;
+}
+.car{
+    width: 50px;
+    height: 100px;
+    // background-color: red;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#aiCar1{
+    background-image: url(/img/carf1.png);
+    left: 75%;
+}
+#aiCar2{
+    background-image: url(/img/car4\ \(copy\).png);
+    left: 55%;
+}
+#aiCar3{
+    background-image: url(/img/car3.png);
+    left: 25%;
+}
+
+#popup-wrapper{
+    position: absolute;
+    background-color: rgba(174, 33, 146, 0.595);
+    width: 100%;
+    height: 100%;
+    transition: opacity 2s;
+}
+
+#popup{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: cyan;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+#icon{
+    width: 200px;
+    height: 200px;
+    // background-color: green;
+    background-image: url(/img/iconImage2.png);
+    background-size: cover;
+}
+
+#header-text{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#btn-play{
+    margin-top: 20px;
+    width: 150px;
+    height: 60px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(57, 85, 197);
+    
+}
+#btn-play:hover{
+    background-color: rgb(56, 166, 19) ;
+    color: white;
+}
+
