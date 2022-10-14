@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.box {
+  position: fixed;
+}
+
+body {
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=style.css.map */
