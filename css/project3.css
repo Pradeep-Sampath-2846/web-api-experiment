@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+#output {
+  height: 85px;
+  background-color: #b72517;
+  opacity: 0.9;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+#blinker {
+  display: inline-block;
+  width: 5px;
+  height: 3rem;
+  background-color: white;
+  animation-name: blinkCursor;
+  animation-duration: 200ms;
+  animation-iteration-count: infinite;
+}
+
+#text {
+  font-size: 3rem;
+  color: black;
+  font-weight: bold;
+}
+
+@keyframes blinkCursor {
+  from {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/*# sourceMappingURL=project3.css.map */

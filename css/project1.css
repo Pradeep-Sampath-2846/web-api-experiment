@@ -1,0 +1,28 @@
+body {
+  background-color: bisque;
+}
+
+#cursor {
+  width: 75px;
+  height: 75px;
+  background-color: rgba(255, 0, 0, 0.526);
+  border-radius: 100%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  animation-name: wave;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  outline: 0 solid rgba(245, 92, 92, 0.652);
+  transition: opacity 0.5s;
+}
+
+@keyframes wave {
+  from {
+    outline-width: 0;
+  }
+  88%, to {
+    outline-width: 25px;
+  }
+}
+
+/*# sourceMappingURL=project1.css.map */

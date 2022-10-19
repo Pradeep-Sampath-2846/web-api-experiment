@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.box {
+  position: fixed;
+}
+
+body {
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=project5.css.map */
