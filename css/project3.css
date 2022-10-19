@@ -9,7 +9,7 @@ body {
 }
 
 #output {
-  height: 85px;
+  height: fit-content;
   background-color: #b72517;
   opacity: 0.9;
   position: fixed;
